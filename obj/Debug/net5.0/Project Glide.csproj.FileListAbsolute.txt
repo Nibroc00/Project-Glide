@@ -1,0 +1,16 @@
+C:\Users\corbin.park\Desktop\Project Glide\bin\Debug\net5.0\Project Glide.exe
+C:\Users\corbin.park\Desktop\Project Glide\bin\Debug\net5.0\Project Glide.deps.json
+C:\Users\corbin.park\Desktop\Project Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.json
+C:\Users\corbin.park\Desktop\Project Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.dev.json
+C:\Users\corbin.park\Desktop\Project Glide\bin\Debug\net5.0\Project Glide.dll
+C:\Users\corbin.park\Desktop\Project Glide\bin\Debug\net5.0\ref\Project Glide.dll
+C:\Users\corbin.park\Desktop\Project Glide\bin\Debug\net5.0\Project Glide.pdb
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.csprojAssemblyReference.cache
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.AssemblyInfoInputs.cache
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.AssemblyInfo.cs
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.csproj.CoreCompileInputs.cache
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.dll
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\ref\Project Glide.dll
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.pdb
+C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
