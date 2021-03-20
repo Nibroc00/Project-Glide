@@ -14,3 +14,6 @@ C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.dll
 C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\ref\Project Glide.dll
 C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.pdb
 C:\Users\corbin.park\Desktop\Project Glide\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
+C:\Users\Esplin\Source\Repos\Project-Glide\obj\Debug\net5.0\Project Glide.dll
+C:\Users\Esplin\Source\Repos\Project-Glide\obj\Debug\net5.0\ref\Project Glide.dll
+C:\Users\Esplin\Source\Repos\Project-Glide\obj\Debug\net5.0\Project Glide.pdb
