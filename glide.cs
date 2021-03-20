@@ -4,26 +4,17 @@ namespace Project_Glide
 {
     class glide
     {
-        // private static System.Timers.Timer masterTimer;
-        // private static void SetTimer() {
-        // // Create a timer with a two second interval.
-        // aTimer = new System.Timers.Timer(200);
-        // // Hook up the Elapsed event for the timer. 
-        // aTimer.Elapsed += OnTimedEvent;
-        // aTimer.AutoReset = true;
-        // aTimer.Enabled = true;
-        // }
-
-        
-
         static void Main(string[] args)
         {
-            System.Timers.Timer aTimer = new System.Timers.Timer();
-            aTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
-            aTimer.Interval = 200;
-            aTimer.Enabled = true;
-            var z = true;
+            //creates a new timer class
+            System.Timers.Timer masterTimer = new System.Timers.Timer();
+            masterTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
+            //number of milliseconds between each interval
+            masterTimer.Interval = 200;
+            masterTimer.Enabled = true;
 
+            //while loop boolean
+            var z = true;
             //Loops until the Q key is pressed.
             Console.WriteLine("Press \'q\' to quit the sample.");
             while(z){
@@ -40,7 +31,7 @@ namespace Project_Glide
             }
         }
 
-        //Put code to be executed every 200 milliseconds in here
+        //Put code to be executed every X amount of milliseconds in here
         private static void OnTimedEvent(object source, ElapsedEventArgs e) {
             Console.WriteLine('A');
         }
