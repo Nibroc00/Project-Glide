@@ -30,6 +30,9 @@ namespace Project_Glide
                     }
                 }
             }
+            grid display = new grid();
+            display.displayGrid();
+
         }
 
         //Put code to be executed every X amount of milliseconds in here

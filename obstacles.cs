@@ -4,6 +4,6 @@ public class obstacles
 {
 	public obstacles()
 	{
-		Console.WriteLine("This is a test!")
+		Console.WriteLine("This is a test!");
 	}
 }
