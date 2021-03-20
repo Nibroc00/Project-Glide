@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Timers;
-
 namespace Project_Glide
 {
     class glide
