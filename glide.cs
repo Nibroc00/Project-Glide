@@ -1,18 +1,16 @@
 ﻿using System;
-using System.Timers;
+
 namespace Project_Glide
 {
     class glide
     {
-        static void Main(string[] args)
-        {
-            //creates a new timer class
-            System.Timers.Timer masterTimer = new System.Timers.Timer();
-            masterTimer.Elapsed += new ElapsedEventHandler(OnTimedEvent);
-            //number of milliseconds between each interval
-            masterTimer.Interval = 200;
-            masterTimer.Enabled = true;
 
+        static void Main(string[] args) {
+            grid display = new grid();
+            // ConsoleKeyInfo input = Console.ReadKey(true);
+            gameTimer masterTimer = new gameTimer(ref display);
+            masterTimer.Start();
+    
             //while loop boolean
             var z = true;
             //Loops until the Q key is pressed.
@@ -25,18 +23,12 @@ namespace Project_Glide
                             z = false;
                             break;
                     default:
+                        masterTimer.setInput(input);
                         break;
                     }
                 }
             }
-            grid display = new grid();
-            display.displayGrid();
 
-        }
-
-        //Put code to be executed every X amount of milliseconds in here
-        private static void OnTimedEvent(object source, ElapsedEventArgs e) {
-            Console.WriteLine('A');
         }
     }
 }
