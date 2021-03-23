@@ -109,15 +109,15 @@ namespace Project_Glide {
                     flyerSpawn = flyerR.Next(2,5);
                     if ( flyerSpawn == 2)
                     {
-                        GridArray[2, 24] = '▄';
+                        GridArray[2, 24] = '■';
                     }
                     else if ( flyerSpawn == 3)
                     {
-                        GridArray[3, 24] = '▄';
+                        GridArray[3, 24] = '■';
                     }
                     else
                     {
-                        GridArray[4, 24] = '▄';
+                        GridArray[4, 24] = '■';
                     }
                     break;
                 default:
