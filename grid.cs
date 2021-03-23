@@ -89,14 +89,23 @@ namespace Project_Glide {
         //adds a random obstacle on the very right edge of the screen/GridArray
         public void AddObstacle() {
             int random = 0;
+            Random r = new Random();
+            random = r.Next(1,3);
             //random chance to pick from 3 values. Those values correspond to aerial, ground, and tall ground obstacles
-
             switch (random) {
+                // Ground 1 tall, spawn only on row 5 column 24
                 case 1:
+
                     break;
+                // Ground 2 tall, spawn only on row 4 column 24
                 case 2:
+
                     break;
+                // Flyer, can spawn on rows 4-2 column 24
                 case 3:
+                
+                    break;
+                default:
                     break;
             }
         }

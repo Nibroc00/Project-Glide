@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\corbin.park\\Desktop\\Project Glide\\Project Glide.csproj": {}
+    "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide\\Project Glide.csproj": {}
   },
   "projects": {
-    "C:\\Users\\corbin.park\\Desktop\\Project Glide\\Project Glide.csproj": {
+    "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide\\Project Glide.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\corbin.park\\Desktop\\Project Glide\\Project Glide.csproj",
+        "projectUniqueName": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide\\Project Glide.csproj",
         "projectName": "Project Glide",
-        "projectPath": "C:\\Users\\corbin.park\\Desktop\\Project Glide\\Project Glide.csproj",
-        "packagesPath": "C:\\Users\\corbin.park\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\corbin.park\\Desktop\\Project Glide\\obj\\",
+        "projectPath": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide\\Project Glide.csproj",
+        "packagesPath": "C:\\Users\\trent.esplin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\corbin.park\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\trent.esplin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
