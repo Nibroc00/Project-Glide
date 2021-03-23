@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide\\Project Glide.csproj",
+      "projectUniqueName": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide-1\\Project Glide.csproj",
       "projectName": "Project Glide",
-      "projectPath": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide\\Project Glide.csproj",
+      "projectPath": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide-1\\Project Glide.csproj",
       "packagesPath": "C:\\Users\\trent.esplin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide\\obj\\",
+      "outputPath": "C:\\Users\\trent.esplin\\Desktop\\Intro\\New folder\\Project-Glide-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -65,12 +65,12 @@ namespace Project_Glide {
 
             ObstacleTimer.Elapsed += new ElapsedEventHandler(ObstacleOnTimedEvent);
             //number of milliseconds between each interval
-            ObstacleTimer.Interval = 175;
+            ObstacleTimer.Interval = 80;
             ObstacleTimer.Enabled = true;
 
             JumperTimer.Elapsed += new ElapsedEventHandler(JumperOnTimedEvent);
             //number of milliseconds between each interval
-            JumperTimer.Interval = 80;
+            JumperTimer.Interval = 150;
             JumperTimer.Enabled = true;
         }
 
@@ -78,7 +78,8 @@ namespace Project_Glide {
             MasterTimer.Enabled = false;
             ObstacleTimer.Enabled = false;
             JumperTimer.Enabled = false;
-            Console.WriteLine("Dead");
+            Console.WriteLine("Dead, better luck next time!");
+            Console.WriteLine("Press Q to quit.");
         }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------
