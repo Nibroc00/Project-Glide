@@ -32,7 +32,7 @@ namespace Project_Glide {
             else{
                 Console.Clear();
                 display.displayGrid();
-                Console.WriteLine(display.ObstacleCounter);
+                // Console.WriteLine(display.ObstacleCounter);
             }
         }
 
@@ -46,7 +46,7 @@ namespace Project_Glide {
             input = reseter;
         }
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -60,7 +60,7 @@ namespace Project_Glide {
         public void Start() {
             MasterTimer.Elapsed += new ElapsedEventHandler(MasterOnTimedEvent);
             //number of milliseconds between each interval
-            MasterTimer.Interval = 100;
+            MasterTimer.Interval = 50;
             MasterTimer.Enabled = true;
 
             ObstacleTimer.Elapsed += new ElapsedEventHandler(ObstacleOnTimedEvent);
