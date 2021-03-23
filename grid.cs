@@ -95,12 +95,12 @@ namespace Project_Glide {
             switch (random) {
                 // Ground 1 tall, spawn only on row 5 column 24
                 case 1:
-                    GridArray[5, 24] = ;
+                    GridArray[5, 24] = '█';
                     break;
                 // Ground 2 tall, spawn only on row 4 column 24
                 case 2:
-                    GridArray[5, 24] = ;
-                    GridArray[4, 24] = ;
+                    GridArray[5, 24] = '█';
+                    GridArray[4, 24] = '▄';
                     break;
                 // Flyer, can spawn on rows 4-2 column 24
                 case 3:
@@ -109,15 +109,15 @@ namespace Project_Glide {
                     flyerSpawn = r.Next(2,4);
                     if ( flyerSpawn == 2)
                     {
-                        GridArray[2, 24] = ;
+                        GridArray[2, 24] = '▄';
                     }
                     else if ( flyerSpawn == 3)
                     {
-                        GridArray[3, 24] = ;
+                        GridArray[3, 24] = '▄';
                     }
                     else
                     {
-                        GridArray[4, 24] = ;
+                        GridArray[4, 24] = '▄';
                     }
                     break;
                 default:
