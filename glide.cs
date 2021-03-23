@@ -6,10 +6,10 @@ namespace Project_Glide
     {
 
         static void Main(string[] args) {
-            grid display = new grid();
+            
             // ConsoleKeyInfo input = Console.ReadKey(true);
-            gameTimer masterTimer = new gameTimer(ref display);
-            masterTimer.Start();
+            jumperGame jumper = new jumperGame();
+            jumper.Start();
     
             //while loop boolean
             var z = true;
@@ -23,7 +23,7 @@ namespace Project_Glide
                             z = false;
                             break;
                     default:
-                        masterTimer.setInput(input);
+                        jumper.setInput(input);
                         break;
                     }
                 }

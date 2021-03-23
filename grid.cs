@@ -2,11 +2,20 @@ using System;
 
 
 namespace Project_Glide {
-    public class grid
-    {
+    public class grid {
 
-        int position = 5;
-        char[,] gridArray = new char[6, 25] {
+//-------------------Class Elements/Variables------------------------------------------------------------------------------------------------------------------------------
+
+        //player values
+        bool alive = true;
+        int JumperPosition = 5;
+        int JumpCounter = 0;
+
+        //obstacle values
+        public int ObstacleCounter = 10;
+
+        //grid values
+        char[,] GridArray = new char[6, 25] {
             {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}, 
             {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
             {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
@@ -15,71 +24,107 @@ namespace Project_Glide {
             {' ', '2', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '}
         };
 
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+//------------------Functions-------------------------------------------------------------------------------------------------------------------------------
 
         public void displayGrid()
         {
             Console.WriteLine("___________________________");
-            for(int i = 0; i < gridArray.GetLength(0); i++)
+            for(int i = 0; i < GridArray.GetLength(0); i++)
             {
                 Console.Write('|');
-                for(int j = 0; j < gridArray.GetLength(1); j++)
+                for(int j = 0; j < GridArray.GetLength(1); j++)
                 {
-                    Console.Write(gridArray[i,j]);
-                    
+                    Console.Write(GridArray[i,j]);
                 }
                 Console.WriteLine('|');
-            
             }
             Console.WriteLine("███████████████████████████");
         }
 
-        public bool Update(ref int jump) {
-            // for(int i = 0; i < gridArray.GetLength(0); i++) {
-            //     for(int j = 0; j < gridArray.GetLength(1); j++) {
-            //         // move objects
-            //     }
-            // }
-            if (jump > 0) {
-                // Console.WriteLine(jump);
-                switch(jump) {
-                    case 5:
-                    case 4:
-                        //move up
-                        Console.WriteLine("up");
-                        gridArray[position - 2, 1] = gridArray[position - 1, 1];
-                        gridArray[position - 1, 1] = gridArray[position, 1];
-                        gridArray[position, 1] = ' ';
-                        position--;
-                        jump--;
-                        break;
-                    case 3:
-                        //stay the same
-                        Console.WriteLine("stay");
-                        jump--;
-                        break;
-                    case 2:
-                    case 1:
-                        //move down
-                        Console.WriteLine("down");
-                        gridArray[position + 1, 1] = gridArray[position, 1];
-                        gridArray[position, 1] = gridArray[position - 1, 1];
-                        gridArray[position - 1, 1] = ' ';
-                        position++;
-                        jump--;
+        public void UpdateJumper(ref ConsoleKeyInfo input) {
+            if (JumpCounter == 0) {
+                switch (input.Key) {
+                    case ConsoleKey.Spacebar:
+                        JumpCounter = 5;
                         break;
                     default:
                         break;
                 }
             }
-
-            if (jump == 0) {
-                return true;
+            if (JumpCounter > 0) {
+                switch(JumpCounter) {
+                    case 5:
+                    case 4:
+                        //move up
+                        GridArray[JumperPosition - 2, 1] = GridArray[JumperPosition - 1, 1];
+                        GridArray[JumperPosition - 1, 1] = GridArray[JumperPosition, 1];
+                        GridArray[JumperPosition, 1] = ' ';
+                        JumperPosition--;
+                        JumpCounter--;
+                        break;
+                    case 3:
+                        //stay the same
+                        JumpCounter--;
+                        break;
+                    case 2:
+                    case 1:
+                        //move down
+                        GridArray[JumperPosition + 1, 1] = GridArray[JumperPosition, 1];
+                        GridArray[JumperPosition, 1] = GridArray[JumperPosition - 1, 1];
+                        GridArray[JumperPosition - 1, 1] = ' ';
+                        JumperPosition++;
+                        JumpCounter--;
+                        break;
+                    default:
+                        break;
+                }
             }
-            else {
-                return false;
-            }
-
         }
-    }
 
+        //adds a random obstacle on the very right edge of the screen/GridArray
+        public void AddObstacle() {
+            int random = 0;
+            //random chance to pick from 3 values. Those values correspond to aerial, ground, and tall ground obstacles
+
+            switch (random) {
+                case 1:
+                    break;
+                case 2:
+                    break;
+                case 3:
+                    break;
+            }
+        }
+    
+        public void UpdateObstacles() {
+            for(int i = 0; i < GridArray.GetLength(0); i++)
+            {
+                for(int j = 0; j < GridArray.GetLength(1); j++)
+                {
+                    //if statement ignores these characters: ' ', '1', '2'
+                    if (GridArray[i,j] != ' ' || GridArray[i,j] != '1' || GridArray[i,j] != '2') {
+                        //move obstacles
+                    }
+                }
+            }
+            ObstacleCounter--;
+            if (ObstacleCounter <= 0) {
+                AddObstacle();
+                ObstacleCounter = 10;
+            }
+        }
+
+        public bool getPlayerStatus() {
+            return alive;
+        }
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+    }
 }
