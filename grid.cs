@@ -130,7 +130,7 @@ namespace Project_Glide {
             {
                 for(int j = 0; j < GridArray.GetLength(1); j++)
                 {
-                    //if statement ignores these characters: ' ', '1', '2'
+                    //if statement ignores these characters: ' ', '☺', '║'
                     if (GridArray[i,j] != ' ' || GridArray[i,j] != '☺' || GridArray[i,j] != '║') {
                         //move obstacles
                     }
