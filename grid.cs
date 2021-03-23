@@ -162,7 +162,6 @@ namespace Project_Glide {
                                 GridArray[i - 0, j - 1] = '█';
                                 GridArray[i, j] = ' ';
                             }
-                            
                         }
                     }
                     

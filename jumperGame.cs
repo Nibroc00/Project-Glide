@@ -27,6 +27,8 @@ namespace Project_Glide {
         private void MasterOnTimedEvent(object source, ElapsedEventArgs e) {   
             // System.Threading.Thread.Sleep(5);
             if (!display.getPlayerStatus()) {
+                Console.Clear();
+                display.displayGrid();
                 Stop();
             }
             else{
