@@ -82,6 +82,7 @@ namespace Project_Glide {
             JumperTimer.Enabled = false;
             Console.WriteLine("Dead, better luck next time!");
             Console.WriteLine("Press Q to quit.");
+            Console.WriteLine("Press R to restart the game.");
         }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------
