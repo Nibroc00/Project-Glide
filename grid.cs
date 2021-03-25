@@ -10,6 +10,7 @@ namespace Project_Glide {
         bool alive = true;
         int JumperPosition = 5;
         int JumpCounter = 0;
+        int score = 0;
 
         //obstacle values
         public int ObstacleCounter = 10;
@@ -33,7 +34,7 @@ namespace Project_Glide {
 
         public void displayGrid()
         {
-            Console.WriteLine("___________________________");
+            Console.WriteLine("___________________________" + "    Score: " + score);
             for(int i = 0; i < GridArray.GetLength(0); i++)
             {
                 Console.Write('|');
@@ -136,6 +137,7 @@ namespace Project_Glide {
                     // Deletes the obstacle from the grid
                     if (j == 0 && (GridArray[i,j] != ' ' && GridArray[i,j] != '☺' && GridArray[i,j] != '║')) {
                         GridArray[i, j] = ' ';
+                        score += 5;
                     }
                     //if statement ignores these characters: ' ', '☺', '║'
                     if (GridArray[i,j] != ' ' && GridArray[i,j] != '☺' && GridArray[i,j] != '║') {
@@ -180,6 +182,11 @@ namespace Project_Glide {
                     ObstacleCounter = 10;
                 }
             }
+        }
+
+        public void UpdateScore()
+        {
+            score++;
         }
 
         public bool getPlayerStatus() {

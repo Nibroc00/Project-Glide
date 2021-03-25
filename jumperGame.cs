@@ -16,6 +16,7 @@ namespace Project_Glide {
         System.Timers.Timer MasterTimer = new System.Timers.Timer();
         System.Timers.Timer ObstacleTimer = new System.Timers.Timer();
         System.Timers.Timer JumperTimer = new System.Timers.Timer();
+        System.Timers.Timer ScoreTimer = new System.Timers.Timer();
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
         
@@ -52,6 +53,11 @@ namespace Project_Glide {
             input = reseter;
         }
 
+        private void ScoreOnTimedEvent(object source, ElapsedEventArgs e)
+        {
+            display.UpdateScore();
+        }
+
 //-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -78,6 +84,9 @@ namespace Project_Glide {
             //number of milliseconds between each interval
             JumperTimer.Interval = 150;
             JumperTimer.Enabled = true;
+
+            ScoreTimer.Interval = 80;
+            ScoreTimer.Enabled = true;
         }
 
         public void Restart() 
@@ -94,12 +103,14 @@ namespace Project_Glide {
             MasterTimer.Enabled = true;
             ObstacleTimer.Enabled = true;
             JumperTimer.Enabled = true;
+            ScoreTimer.Enabled = true;
         }
 
         public void Stop() {
             MasterTimer.Enabled = false;
             ObstacleTimer.Enabled = false;
             JumperTimer.Enabled = false;
+            ScoreTimer.Enabled = false;
             
         }
 
