@@ -10,6 +10,7 @@ namespace Project_Glide
             // ConsoleKeyInfo input = Console.ReadKey(true);
             jumperGame jumper = new jumperGame();
             jumper.Start();
+            jumper.Resume();
     
             //while loop boolean
             var z = true;
@@ -21,6 +22,10 @@ namespace Project_Glide
                     switch (input.Key) {
                         case ConsoleKey.Q:
                             z = false;
+                            break;
+                        case ConsoleKey.R:
+                            // Clear Grid and print grid
+                            jumper.Restart();
                             break;
                     default:
                         jumper.setInput(input);

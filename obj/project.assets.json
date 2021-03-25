@@ -8,26 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jayse.baruch\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\trent.esplin\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jayse.baruch\\Documents\\Project-Glide\\Project Glide.csproj",
+      "projectUniqueName": "C:\\Users\\trent.esplin\\Project-Glide\\Project Glide.csproj",
       "projectName": "Project Glide",
-      "projectPath": "C:\\Users\\jayse.baruch\\Documents\\Project-Glide\\Project Glide.csproj",
-      "packagesPath": "C:\\Users\\jayse.baruch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jayse.baruch\\Documents\\Project-Glide\\obj\\",
+      "projectPath": "C:\\Users\\trent.esplin\\Project-Glide\\Project Glide.csproj",
+      "packagesPath": "C:\\Users\\trent.esplin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\trent.esplin\\Project-Glide\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\jayse.baruch\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\trent.esplin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -68,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

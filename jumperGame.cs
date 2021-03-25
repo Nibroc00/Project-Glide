@@ -30,10 +30,14 @@ namespace Project_Glide {
                 Console.Clear();
                 display.displayGrid();
                 Stop();
+                Console.WriteLine("Dead, better luck next time!");
+                Console.WriteLine("Press Q to quit.");
+                Console.WriteLine("Press R to restart the game.");
             }
             else{
                 Console.Clear();
                 display.displayGrid();
+                // Console.writeline(input);
                 // Console.WriteLine(display.ObstacleCounter);
             }
         }
@@ -62,7 +66,7 @@ namespace Project_Glide {
         public void Start() {
             MasterTimer.Elapsed += new ElapsedEventHandler(MasterOnTimedEvent);
             //number of milliseconds between each interval
-            MasterTimer.Interval = 50;
+            MasterTimer.Interval =  40;
             MasterTimer.Enabled = true;
 
             ObstacleTimer.Elapsed += new ElapsedEventHandler(ObstacleOnTimedEvent);
@@ -76,13 +80,27 @@ namespace Project_Glide {
             JumperTimer.Enabled = true;
         }
 
+        public void Restart() 
+        {
+            // Console.Clear();
+            // display.clearGrid();
+            // display.alivePlayerStatus();
+            display = new grid();
+            Resume();
+        }
+
+        public void Resume ()
+        {
+            MasterTimer.Enabled = true;
+            ObstacleTimer.Enabled = true;
+            JumperTimer.Enabled = true;
+        }
+
         public void Stop() {
             MasterTimer.Enabled = false;
             ObstacleTimer.Enabled = false;
             JumperTimer.Enabled = false;
-            Console.WriteLine("Dead, better luck next time!");
-            Console.WriteLine("Press Q to quit.");
-            Console.WriteLine("Press R to restart the game.");
+            
         }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------

@@ -47,7 +47,7 @@ namespace Project_Glide {
         }
 
         public void UpdateJumper(ref ConsoleKeyInfo input) {
-            if (JumpCounter == 0) {
+            if (JumpCounter <= 0) {
                 switch (input.Key) {
                     case ConsoleKey.Spacebar:
                         JumpCounter = 5;
@@ -186,6 +186,25 @@ namespace Project_Glide {
             return alive;
         }
 
+        // public void alivePlayerStatus() {
+        //     alive = true;
+        // }
+
+        // public void clearGrid()
+        // {
+        //     for(int i = 0; i < GridArray.GetLength(0); i++)
+        //     {
+        //         for(int j = 0; j < GridArray.GetLength(1); j++)
+        //         {
+        //             GridArray[i,j] = ' ';
+        //         }
+                
+        //     }
+        //     GridArray[5,1] = '║';
+        //     GridArray[4,1] = '☺';
+        //     JumpCounter = 0;
+        //     ObstacleCounter = 10;
+        // }
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 
 
