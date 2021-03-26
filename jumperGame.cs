@@ -85,7 +85,9 @@ namespace Project_Glide {
             JumperTimer.Interval = 150;
             JumperTimer.Enabled = true;
 
-            ScoreTimer.Interval = 80;
+            ScoreTimer.Elapsed += new ElapsedEventHandler(ScoreOnTimedEvent);
+            //number of milliseconds for each individual point
+            ScoreTimer.Interval = 585;
             ScoreTimer.Enabled = true;
         }
 

@@ -186,7 +186,7 @@ namespace Project_Glide {
 
         public void UpdateScore()
         {
-            score++;
+            score += 1;
         }
 
         public bool getPlayerStatus() {
