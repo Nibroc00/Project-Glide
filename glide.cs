@@ -6,6 +6,14 @@ namespace Project_Glide
     {
 
         static void Main(string[] args) {
+
+            // Welcom Screen
+            Console.Write("Welcome to The Jumper Game \n\n Dodge obstacles by jumping (Space Bar) \n\nPress Space Bar to begin...");
+            char begin = Console.ReadKey();
+            while(begin != ConsoleKey.Spacebar){
+                begin = Console.ReadKey();
+            }
+            
             
             // ConsoleKeyInfo input = Console.ReadKey(true);
             jumperGame jumper = new jumperGame();
