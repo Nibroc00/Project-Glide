@@ -33,6 +33,7 @@ C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide\obj\Debug\net5.0\Pr
 C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide\obj\Debug\net5.0\ref\Project Glide.dll
 C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide\obj\Debug\net5.0\Project Glide.pdb
 C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
+<<<<<<< HEAD
 C:\Users\seth.clark\Documents\cs2450\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.csprojAssemblyReference.cache
 C:\Users\seth.clark\Documents\cs2450\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\seth.clark\Documents\cs2450\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.AssemblyInfoInputs.cache
@@ -41,6 +42,95 @@ C:\Users\seth.clark\Documents\cs2450\Project Glide\Project-Glide\obj\Debug\net5.
 C:\Users\seth.clark\Documents\cs2450\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.dll
 C:\Users\seth.clark\Documents\cs2450\Project Glide\Project-Glide\obj\Debug\net5.0\ref\Project Glide.dll
 C:\Users\seth.clark\Documents\cs2450\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.pdb
+=======
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\Project Glide.csprojAssemblyReference.cache
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\Project Glide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\Project Glide.AssemblyInfoInputs.cache
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\Project Glide.AssemblyInfo.cs
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\Project Glide.csproj.CoreCompileInputs.cache
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\Project Glide.dll
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\ref\Project Glide.dll
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\Project Glide.pdb
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\bin\Debug\net5.0\Project Glide.exe
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\bin\Debug\net5.0\Project Glide.deps.json
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\bin\Debug\net5.0\Project Glide.runtimeconfig.json
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\bin\Debug\net5.0\Project Glide.runtimeconfig.dev.json
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\bin\Debug\net5.0\Project Glide.dll
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\bin\Debug\net5.0\ref\Project Glide.dll
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\bin\Debug\net5.0\Project Glide.pdb
+C:\Users\trent.esplin\Desktop\Intro\New folder\Project-Glide-1\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\bin\Debug\net5.0\Project Glide.exe
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\bin\Debug\net5.0\Project Glide.deps.json
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.json
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.dev.json
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\bin\Debug\net5.0\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\bin\Debug\net5.0\ref\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\bin\Debug\net5.0\Project Glide.pdb
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\Project Glide.csprojAssemblyReference.cache
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\Project Glide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\Project Glide.AssemblyInfoInputs.cache
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\Project Glide.AssemblyInfo.cs
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\Project Glide.csproj.CoreCompileInputs.cache
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\ref\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\Project Glide.pdb
+C:\Users\jayse.baruch\Documents\Intro\Project-Glide\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\Project Glide.csprojAssemblyReference.cache
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\Project Glide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\Project Glide.AssemblyInfoInputs.cache
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\Project Glide.AssemblyInfo.cs
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\Project Glide.csproj.CoreCompileInputs.cache
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\ref\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\Project Glide.pdb
+C:\Users\jayse.baruch\Documents\Project-Glide\bin\Debug\net5.0\Project Glide.exe
+C:\Users\jayse.baruch\Documents\Project-Glide\bin\Debug\net5.0\Project Glide.deps.json
+C:\Users\jayse.baruch\Documents\Project-Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.json
+C:\Users\jayse.baruch\Documents\Project-Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.dev.json
+C:\Users\jayse.baruch\Documents\Project-Glide\bin\Debug\net5.0\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Project-Glide\bin\Debug\net5.0\ref\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Project-Glide\bin\Debug\net5.0\Project Glide.pdb
+C:\Users\jayse.baruch\Documents\Project-Glide\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\Project Glide.csprojAssemblyReference.cache
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\Project Glide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\Project Glide.AssemblyInfoInputs.cache
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\Project Glide.AssemblyInfo.cs
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\Project Glide.csproj.CoreCompileInputs.cache
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\Project Glide.dll
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\ref\Project Glide.dll
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\Project Glide.pdb
+C:\Users\trent.esplin\Project-Glide\bin\Debug\net5.0\Project Glide.exe
+C:\Users\trent.esplin\Project-Glide\bin\Debug\net5.0\Project Glide.deps.json
+C:\Users\trent.esplin\Project-Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.json
+C:\Users\trent.esplin\Project-Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.dev.json
+C:\Users\trent.esplin\Project-Glide\bin\Debug\net5.0\Project Glide.dll
+C:\Users\trent.esplin\Project-Glide\bin\Debug\net5.0\ref\Project Glide.dll
+C:\Users\trent.esplin\Project-Glide\bin\Debug\net5.0\Project Glide.pdb
+C:\Users\trent.esplin\Project-Glide\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
+C:\Users\jayse.baruch\Documents\Project-Glide-1\bin\Debug\net5.0\Project Glide.exe
+C:\Users\jayse.baruch\Documents\Project-Glide-1\bin\Debug\net5.0\Project Glide.deps.json
+C:\Users\jayse.baruch\Documents\Project-Glide-1\bin\Debug\net5.0\Project Glide.runtimeconfig.json
+C:\Users\jayse.baruch\Documents\Project-Glide-1\bin\Debug\net5.0\Project Glide.runtimeconfig.dev.json
+C:\Users\jayse.baruch\Documents\Project-Glide-1\bin\Debug\net5.0\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Project-Glide-1\bin\Debug\net5.0\ref\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Project-Glide-1\bin\Debug\net5.0\Project Glide.pdb
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\Project Glide.csprojAssemblyReference.cache
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\Project Glide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\Project Glide.AssemblyInfoInputs.cache
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\Project Glide.AssemblyInfo.cs
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\Project Glide.csproj.CoreCompileInputs.cache
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\ref\Project Glide.dll
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\Project Glide.pdb
+C:\Users\jayse.baruch\Documents\Project-Glide-1\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
+C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\bin\Debug\net5.0\Project Glide.exe
+C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\bin\Debug\net5.0\Project Glide.deps.json
+C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.json
+C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\bin\Debug\net5.0\Project Glide.runtimeconfig.dev.json
+C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\bin\Debug\net5.0\Project Glide.dll
+C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\bin\Debug\net5.0\ref\Project Glide.dll
+C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\bin\Debug\net5.0\Project Glide.pdb
+>>>>>>> master
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.csprojAssemblyReference.cache
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.AssemblyInfoInputs.cache
@@ -49,3 +139,7 @@ C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\De
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.dll
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\ref\Project Glide.dll
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.pdb
+<<<<<<< HEAD
+=======
+C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
+>>>>>>> master

@@ -16,6 +16,7 @@ namespace Project_Glide {
         System.Timers.Timer MasterTimer = new System.Timers.Timer();
         System.Timers.Timer ObstacleTimer = new System.Timers.Timer();
         System.Timers.Timer JumperTimer = new System.Timers.Timer();
+        System.Timers.Timer ScoreTimer = new System.Timers.Timer();
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
         
@@ -27,11 +28,17 @@ namespace Project_Glide {
         private void MasterOnTimedEvent(object source, ElapsedEventArgs e) {   
             // System.Threading.Thread.Sleep(5);
             if (!display.getPlayerStatus()) {
+                Console.Clear();
+                display.displayGrid();
                 Stop();
+                Console.WriteLine("Dead, better luck next time!");
+                Console.WriteLine("Press Q or Esc to quit.");
+                Console.WriteLine("Press R to restart the game.");
             }
             else{
                 Console.Clear();
                 display.displayGrid();
+                // Console.writeline(input);
                 // Console.WriteLine(display.ObstacleCounter);
             }
         }
@@ -44,6 +51,11 @@ namespace Project_Glide {
             display.UpdateJumper(ref input);
             ConsoleKeyInfo reseter = new ConsoleKeyInfo((char)ConsoleKey.RightArrow, ConsoleKey.RightArrow, false, false, false);
             input = reseter;
+        }
+
+        private void ScoreOnTimedEvent(object source, ElapsedEventArgs e)
+        {
+            display.UpdateScore();
         }
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -60,25 +72,48 @@ namespace Project_Glide {
         public void Start() {
             MasterTimer.Elapsed += new ElapsedEventHandler(MasterOnTimedEvent);
             //number of milliseconds between each interval
-            MasterTimer.Interval = 50;
+            MasterTimer.Interval =  40;
             MasterTimer.Enabled = true;
 
             ObstacleTimer.Elapsed += new ElapsedEventHandler(ObstacleOnTimedEvent);
             //number of milliseconds between each interval
-            ObstacleTimer.Interval = 175;
+            ObstacleTimer.Interval = 80;
             ObstacleTimer.Enabled = true;
 
             JumperTimer.Elapsed += new ElapsedEventHandler(JumperOnTimedEvent);
             //number of milliseconds between each interval
-            JumperTimer.Interval = 80;
+            JumperTimer.Interval = 160;
             JumperTimer.Enabled = true;
+
+            ScoreTimer.Elapsed += new ElapsedEventHandler(ScoreOnTimedEvent);
+            //number of milliseconds for each individual point
+            ScoreTimer.Interval = 585;
+            ScoreTimer.Enabled = true;
+        }
+
+        public void Restart() 
+        {
+            // Console.Clear();
+            // display.clearGrid();
+            // display.alivePlayerStatus();
+            display = new grid();
+            Resume();
+        }
+
+        public void Resume ()
+        {
+            MasterTimer.Enabled = true;
+            ObstacleTimer.Enabled = true;
+            JumperTimer.Enabled = true;
+            ScoreTimer.Enabled = true;
         }
 
         public void Stop() {
             MasterTimer.Enabled = false;
             ObstacleTimer.Enabled = false;
             JumperTimer.Enabled = false;
-            Console.WriteLine("Dead");
+            ScoreTimer.Enabled = false;
+            
         }
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------
