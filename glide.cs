@@ -8,10 +8,11 @@ namespace Project_Glide
         static void Main(string[] args) {
 
             // Welcom Screen
-            Console.Write("Welcome to The Jumper Game \n\n Dodge obstacles by jumping (Space Bar) \n\nPress Space Bar to begin...");
-            char begin = Convert.ToChar(Console.ReadKey());
-            while(ConsoleKeyInfo.Equals()){
-                begin = Convert.ToChar(Console.ReadKey());
+            Console.Clear();
+            Console.Write("Welcome to The Jumper Game \n\nDodge obstacles by jumping (Space Bar) \n\nPress Space Bar to begin...");
+            char begin = Console.ReadKey().KeyChar;
+            while(!ConsoleKeyInfo.Equals(begin, ' ')){
+                begin = Console.ReadKey().KeyChar;
             }
             
             

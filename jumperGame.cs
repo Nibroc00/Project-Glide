@@ -32,6 +32,7 @@ namespace Project_Glide {
                 display.displayGrid();
                 Stop();
                 Console.WriteLine("Dead, better luck next time!");
+                Console.WriteLine("You scored {0} points!", display.getScore());
                 Console.WriteLine("Press Q or Esc to quit.");
                 Console.WriteLine("Press R to restart the game.");
             }

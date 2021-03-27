@@ -191,6 +191,10 @@ namespace Project_Glide {
         {
             score += 1;
         }
+        
+        public int getScore(){
+            return score;
+        }
 
         public bool getPlayerStatus() {
             return alive;
