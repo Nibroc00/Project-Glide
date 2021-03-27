@@ -47,6 +47,7 @@ namespace Project_Glide {
                 Console.WriteLine('|');
             }
             Console.WriteLine("███████████████████████████");
+            Console.WriteLine("Press P to pause.");
         }
 
         public void UpdateJumper(ref ConsoleKeyInfo input) {
