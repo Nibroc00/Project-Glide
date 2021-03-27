@@ -23,6 +23,9 @@ namespace Project_Glide
                         case ConsoleKey.Q:
                             z = false;
                             break;
+                        case ConsoleKey.Escape:
+                            z = false;
+                            break;
                         case ConsoleKey.R:
                             // Clear Grid and print grid
                             jumper.Restart();

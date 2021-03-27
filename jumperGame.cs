@@ -32,7 +32,7 @@ namespace Project_Glide {
                 display.displayGrid();
                 Stop();
                 Console.WriteLine("Dead, better luck next time!");
-                Console.WriteLine("Press Q to quit.");
+                Console.WriteLine("Press Q or Esc to quit.");
                 Console.WriteLine("Press R to restart the game.");
             }
             else{
@@ -82,7 +82,7 @@ namespace Project_Glide {
 
             JumperTimer.Elapsed += new ElapsedEventHandler(JumperOnTimedEvent);
             //number of milliseconds between each interval
-            JumperTimer.Interval = 150;
+            JumperTimer.Interval = 160;
             JumperTimer.Enabled = true;
 
             ScoreTimer.Elapsed += new ElapsedEventHandler(ScoreOnTimedEvent);
