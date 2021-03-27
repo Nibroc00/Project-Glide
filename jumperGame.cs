@@ -91,6 +91,11 @@ namespace Project_Glide {
             ScoreTimer.Enabled = true;
         }
 
+        public void Pause()
+        {
+            Stop();
+        }
+
         public void Restart() 
         {
             // Console.Clear();
