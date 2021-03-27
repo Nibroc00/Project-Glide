@@ -8,23 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\jayse.baruch\\.nuget\\packages\\": {},
+    "C:\\Users\\seth.clark\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jayse.baruch\\Documents\\Project-Glide\\Project Glide.csproj",
+      "projectUniqueName": "C:\\Users\\seth.clark\\Documents\\CS2450 Projects\\Project Glide\\Project-Glide\\Project Glide.csproj",
       "projectName": "Project Glide",
-      "projectPath": "C:\\Users\\jayse.baruch\\Documents\\Project-Glide\\Project Glide.csproj",
-      "packagesPath": "C:\\Users\\jayse.baruch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jayse.baruch\\Documents\\Project-Glide\\obj\\",
+      "projectPath": "C:\\Users\\seth.clark\\Documents\\CS2450 Projects\\Project Glide\\Project-Glide\\Project Glide.csproj",
+      "packagesPath": "C:\\Users\\seth.clark\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\seth.clark\\Documents\\CS2450 Projects\\Project Glide\\Project-Glide\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\jayse.baruch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\seth.clark\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
