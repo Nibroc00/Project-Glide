@@ -21,10 +21,15 @@ namespace Project_Glide
                     var input = Console.ReadKey(true);
                     switch (input.Key) {
                         case ConsoleKey.Q:
-                            z = false;
-                            break;
                         case ConsoleKey.Escape:
                             z = false;
+                            break;
+                        case ConsoleKey.P:
+                            jumper.Stop();
+                            Console.WriteLine("Press C to continue.");
+                            break;
+                        case ConsoleKey.C:
+                            jumper.Resume();
                             break;
                         case ConsoleKey.R:
                             // Clear Grid and print grid
