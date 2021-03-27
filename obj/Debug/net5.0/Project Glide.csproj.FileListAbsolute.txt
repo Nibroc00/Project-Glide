@@ -139,7 +139,4 @@ C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\De
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.dll
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\ref\Project Glide.dll
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.pdb
-<<<<<<< HEAD
-=======
 C:\Users\seth.clark\Documents\CS2450 Projects\Project Glide\Project-Glide\obj\Debug\net5.0\Project Glide.genruntimeconfig.cache
->>>>>>> master

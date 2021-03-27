@@ -9,9 +9,9 @@ namespace Project_Glide
 
             // Welcom Screen
             Console.Write("Welcome to The Jumper Game \n\n Dodge obstacles by jumping (Space Bar) \n\nPress Space Bar to begin...");
-            var begin = Console.ReadKey();
-            while(begin != ConsoleKey.Spacebar){
-                begin = Console.ReadKey();
+            char begin = Convert.ToChar(Console.ReadKey());
+            while(ConsoleKeyInfo.Equals()){
+                begin = Convert.ToChar(Console.ReadKey());
             }
             
             
